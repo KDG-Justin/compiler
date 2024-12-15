@@ -1,0 +1,31 @@
+{
+    "name": "my-compiler",
+    "version": "1.2.2",
+    "private": true,
+    "author": "Justin van Leuvenum",
+    "license": "MIT",
+    "main": "dist/ts/index.js",
+    "types": "dist/index.d.tsx",
+    "devDependencies": {
+        "@babel/core": "^7.19.1",
+        "@babel/preset-env": "^7.19.1",
+        "@types/jest": "^28.1.1",
+        "@types/react": "^18.2.37",
+        "@types/react-dom": "^18.2.15",
+        "@typescript-eslint/eslint-plugin": "^5.36.1",
+        "@typescript-eslint/parser": "^5.36.1",
+        "babel-jest": "^28.0.0",
+        "eslint": "^8.23.0",
+        "jest": "^28.1.3",
+        "ts-jest": "^28.0.8",
+        "typescript": "^4.8.3"
+    },
+    "dependencies": {
+        "antlr4": "^4.13.1-patch-1"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "antlr": "generate-parser.bat"
+    }
+}

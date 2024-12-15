@@ -1,0 +1,1 @@
+antlr -visitor -Dlanguage=TypeScript -o src/ts/generated src/g4/BasicTypescript.g4
